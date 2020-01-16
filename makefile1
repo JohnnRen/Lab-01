@@ -1,0 +1,7 @@
+CC=gcc
+
+exercisemake: bar/bar.c foo/foo.c
+	$(CC) -o lab1 bar/bar.c foo/foo.c
+
+clean:
+	rm lab1
